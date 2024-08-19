@@ -2,7 +2,7 @@
 
 FROM node:alpine 
 
-COPY . . 
+COPY . /app
 
 WORKDIR /app 
 
