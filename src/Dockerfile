@@ -14,7 +14,7 @@ COPY . /app
 WORKDIR /app 
 
 
-CMD node /app.js   
+CMD node app.js   
 #* CMD node app/app.js 
 #* Upang hindi mahaba katulad nito create tayo ng : WORKDIR    
 
